@@ -2,7 +2,7 @@ import streamlit as st
 
 st.sidebar.title("Menu")
 
-st.title("Relatório de inspeção visual CS")
+st.title("Relatório de Inspeção Visual CS")
 st.selectbox("UFV:",["Campo Verde I","Samambaia"])
 st.selectbox("Cliente:",["Alsol","Reenergisa"])
 st.selectbox("Responsável:",["João","Geraldo"])
