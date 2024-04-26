@@ -12,7 +12,7 @@ st.selectbox("Responsável:",["João","Geraldo"])
 
 st.selectbox("Revisor:",["João","Geraldo"])
 
-#st.date_input("Data de Elaboração")
+st.date_input("Data de Elaboração")
 
 st.file_uploader("Insira uma imagem")
 
