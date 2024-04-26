@@ -4,8 +4,17 @@ st.sidebar.title("Menu")
 
 st.title("Relatório de inspeção visual CS")
 
-st.selectbox("Box",["Opção1","Opção2"])
+st.selectbox("UFV:",["Campo Verde I","Samambaia"])
+
+st.selectbox("Cliente:",["Alsol","Reenergisa"])
+
+st.selectbox("Responsável:",["João","Geraldo"])
+
+st.selectbox("Revisor:",["João","Geraldo"])
+
+#st.date_input("Data de Elaboração")
 
 st.file_uploader("Insira uma imagem")
+
 #st.radio("Análise")
-#st.date_input("Data de Elaboração")
+
