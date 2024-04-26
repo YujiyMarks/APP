@@ -10,7 +10,7 @@ st.selectbox("Revisor:",["João","Geraldo"])
 st.date_input("Data de elaboração:")
 st.file_uploader("Insira uma imagem:")
 
-st.button(on_click=None)
+st.button("Insira um item",on_click=None)
 
 st.write("ITENS")
 st.selectbox("Escolha o item 1:",["Módulos","Inversores"])
