@@ -12,8 +12,8 @@ st.file_uploader("Insira uma imagem:")
 
 
 st.write("ITENS")
-st.selectbox("",["Módulos","Inversores"])
-st.file_uploader("Insira:")
+st.selectbox(["Módulos","Inversores"])
+st.file_uploader("Insira a imagem do item 1:")
 #st.radio("Análise")
-st.text_input("Observação")
+st.text_input("Observação:")
 
