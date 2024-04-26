@@ -13,7 +13,7 @@ st.file_uploader("Insira uma imagem:")
 
 st.write("ITENS")
 st.selectbox("",["Módulos","Inversores"])
-st.file_uploader("Insira uma imagem:")
+st.file_uploader("Insira:")
 #st.radio("Análise")
 st.text_input("Observação")
 
