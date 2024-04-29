@@ -13,17 +13,18 @@ class Pagina():
     st.file_uploader("Insira uma imagem:")
     
     st.write("ITENS")
-    botao = st.button("Insira um item", on_click=inserir_item)
+    botao = st.button("Insira um item")
     #inserir_item(self, botao)
 
-  def inserir_item():
+  def mostrar_item():
       st.selectbox("Escolha o item 1:",["Módulos","Inversores"])
       st.file_uploader("Insira a imagem do item 1:")
       st.radio("Análise:",["C","NC","NA","PA"],horizontal=True)
       st.text_input("Observação:")
 
-Pagina()
-  
 
+
+Pagina()
+st.title("Relatório de Inspeção Visual CS")
 
 
