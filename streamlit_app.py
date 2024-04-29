@@ -13,7 +13,7 @@ class Pagina():
     st.file_uploader("Insira uma imagem:")
     
     st.write("ITENS")
-    botao = st.button("Insira um item",on_click=inserir_item)
+    botao = st.button("Insira um item",on_click='inserir_item')
     #inserir_item(self, botao)
 
   def inserir_item(self, **kwargs):
