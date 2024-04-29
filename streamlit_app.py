@@ -14,18 +14,23 @@ class Pagina():
     
     
 
-  def mostrar_item(self,**kwargs):
+  def mostrar_item():
       st.selectbox("Escolha o item 1:",["Módulos","Inversores"])
       st.file_uploader("Insira a imagem do item 1:")
       st.radio("Análise:",["C","NC","NA","PA"],horizontal=True)
       st.text_input("Observação:")
+
+  def inserir_item():
+    st.session_state['itens'] += 1
 
 
 
 Pagina()
 
 st.write("ITENS")
-botao = st.button("Insira um item",on_click=Pagina.mostrar_item)
+botao = st.button("Insira um item",on_click=inserir_item)
 #inserir_item(self, botao)
 
+for i in range(st.inserir_item['itens']):
+    mostrar_item()
 
