@@ -1,7 +1,7 @@
 import streamlit as st
 
 class Pagina():
-  def __initi__():
+  def __init__():
     st.sidebar.title("Menu")
     
     st.title("Relatório de Inspeção Visual CS")
