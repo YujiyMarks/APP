@@ -14,7 +14,7 @@ class Pagina():
     
     st.write("ITENS")
     botao = st.button("Insira um item")
-    inserir_item(botao)
+    inserir_item(self, botao)
 
   def inserir_item(botao):
     if botao:
