@@ -19,6 +19,10 @@ class pagina():
       st.file_uploader("Insira a imagem do item 1:")
       st.radio("Análise:",["C","NC","NA","PA"],horizontal=True)
       st.text_input("Observação:")
+    
+      botao = st.button("Insira um item")
+      if botao:
+        pagina.mostrar_item()
 
   #def inserir_item():
     #st.session_state['itens'] += 1
@@ -31,7 +35,7 @@ st.write("ITENS")
 botao = st.button("Insira um item")
 if botao:
   pagina.mostrar_item()
-botao = False
+#botao = False
 #inserir_item(self, botao)
 
 #for i in range(st.session_state['itens']):
