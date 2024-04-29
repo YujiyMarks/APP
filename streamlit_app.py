@@ -1,6 +1,6 @@
 import streamlit as st
 
-class Pagina():
+class pagina():
   def __init__(self):
     st.sidebar.title("Menu")
     
@@ -30,7 +30,7 @@ Pagina()
 st.write("ITENS")
 botao = st.button("Insira um item")
 if botao:
-  mostrar_item()
+  pagina.mostrar_item()
 #inserir_item(self, botao)
 
 #for i in range(st.session_state['itens']):
