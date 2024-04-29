@@ -25,7 +25,7 @@ class pagina():
 
 
 
-Pagina()
+pagina()
 
 st.write("ITENS")
 botao = st.button("Insira um item")
