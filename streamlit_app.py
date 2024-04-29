@@ -12,9 +12,7 @@ class Pagina():
     st.date_input("Data de elaboração:")
     st.file_uploader("Insira uma imagem:")
     
-    st.write("ITENS")
-    botao = st.button("Insira um item")
-    #inserir_item(self, botao)
+    
 
   def mostrar_item():
       st.selectbox("Escolha o item 1:",["Módulos","Inversores"])
@@ -25,6 +23,9 @@ class Pagina():
 
 
 Pagina()
-st.title("Relatório de Inspeção Visual CS")
+
+st.write("ITENS")
+botao = st.button("Insira um item",on_click=mostrar_item)
+#inserir_item(self, botao)
 
 
