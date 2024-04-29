@@ -17,7 +17,6 @@ class Pagina():
     #inserir_item(self, botao)
 
   def inserir_item(self):
-    if botao:
       st.selectbox("Escolha o item 1:",["Módulos","Inversores"])
       st.file_uploader("Insira a imagem do item 1:")
       st.radio("Análise:",["C","NC","NA","PA"],horizontal=True)
