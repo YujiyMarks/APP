@@ -31,7 +31,7 @@ st.write("ITENS")
 botao = st.button("Insira um item")
 if botao:
   pagina.mostrar_item()
-botao = FALSE
+botao = False
 #inserir_item(self, botao)
 
 #for i in range(st.session_state['itens']):
