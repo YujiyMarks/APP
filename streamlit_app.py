@@ -31,6 +31,6 @@ st.write("ITENS")
 botao = st.button("Insira um item",on_click=Pagina.inserir_item)
 #inserir_item(self, botao)
 
-for i in range(st.inserir_item['itens']):
+for i in range(st.session_state['itens']):
     mostrar_item()
 
