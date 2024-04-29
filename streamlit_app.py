@@ -20,17 +20,19 @@ class Pagina():
       st.radio("Análise:",["C","NC","NA","PA"],horizontal=True)
       st.text_input("Observação:")
 
-  def inserir_item():
-    st.session_state['itens'] += 1
+  #def inserir_item():
+    #st.session_state['itens'] += 1
 
 
 
 Pagina()
 
 st.write("ITENS")
-botao = st.button("Insira um item",on_click=Pagina.inserir_item)
+botao = st.button("Insira um item")
+if botao:
+  mostrar_item()
 #inserir_item(self, botao)
 
-for i in range(st.session_state['itens']):
-    mostrar_item()
+#for i in range(st.session_state['itens']):
+    #mostrar_item()
 
