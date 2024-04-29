@@ -13,8 +13,10 @@ class Pagina():
     st.file_uploader("Insira uma imagem:")
     
     st.write("ITENS")
-    
     botao = st.button("Insira um item")
+    inserir_item(botao)
+
+  def inserir_item(botao):
     if botao:
       st.selectbox("Escolha o item 1:",["Módulos","Inversores"])
       st.file_uploader("Insira a imagem do item 1:")
