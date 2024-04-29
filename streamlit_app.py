@@ -14,7 +14,7 @@ class Pagina():
     
     
 
-  def mostrar_item():
+  def mostrar_item(self):
       st.selectbox("Escolha o item 1:",["Módulos","Inversores"])
       st.file_uploader("Insira a imagem do item 1:")
       st.radio("Análise:",["C","NC","NA","PA"],horizontal=True)
@@ -25,7 +25,7 @@ class Pagina():
 Pagina()
 
 st.write("ITENS")
-botao = st.button("Insira um item",on_click=Pagina.mostrar_item)
+botao = st.button("Insira um item",on_click=Pagina.mostrar_item())
 #inserir_item(self, botao)
 
 
