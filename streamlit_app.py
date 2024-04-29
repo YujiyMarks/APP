@@ -25,7 +25,7 @@ class Pagina():
 Pagina()
 
 st.write("ITENS")
-botao = st.button("Insira um item",on_click=mostrar_item)
+botao = st.button("Insira um item",on_click=Pagina.mostrar_item)
 #inserir_item(self, botao)
 
 
