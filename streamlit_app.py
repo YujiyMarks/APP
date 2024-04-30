@@ -1,5 +1,7 @@
 import streamlit as st
 
+from reportlab.pdfgen import canvas
+
 class pagina():
   def __init__(self):
     st.sidebar.title("Menu")
