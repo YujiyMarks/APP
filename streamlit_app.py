@@ -32,9 +32,9 @@ class pagina():
 pagina()
 
 st.write("ITENS")
-botao = st.button("Insira um item")
-if botao:
-  pagina.mostrar_item()
+botao = st.button("Insira um item",on_click='pagina.mostra_item')
+#if botao:
+ # pagina.mostrar_item()
 #botao = False
 #inserir_item(self, botao)
 
