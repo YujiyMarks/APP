@@ -47,7 +47,7 @@ if botao:
 #for i in range(st.session_state['itens']):
     #mostrar_item()
 
-progress_bar = st.sidebar.progress(0)
-status_text = st.sidebar.empty()
+#progress_bar = st.sidebar.progress(0)
+#status_text = st.sidebar.empty()
 
-progress_bar.empty()
+#progress_bar.empty()
