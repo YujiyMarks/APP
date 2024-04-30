@@ -3,6 +3,8 @@ import streamlit as st
 #from reportlab.pdfgen import canvas
 #from reportlab.lib.pagesizes import A4
 
+st.set_page_config(page_title="Relatório")
+
 
 class pagina():
   def __init__(self):
