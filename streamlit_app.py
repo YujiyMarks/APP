@@ -16,7 +16,7 @@ class pagina():
 
   def mostrar_item():
       st.selectbox("Escolha o item 1:",["Módulos","Inversores"])
-      st.file_uploader("Insira a imagem do item 1:")
+      st.file_uploader("Insira a imagem do item 1:",type=['jpg','png'])
       st.radio("Análise:",["C","NC","NA","PA"],horizontal=True)
       st.text_input("Observação:")
     
