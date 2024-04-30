@@ -4,7 +4,7 @@ import streamlit as st
 #from reportlab.lib.pagesizes import A4
 
 st.set_page_config(page_title="Relatório")
-
+st.sidebar.header("Relatorio")
 
 class pagina():
   def __init__(self):
