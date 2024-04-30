@@ -4,7 +4,7 @@ import streamlit as st
 #from reportlab.lib.pagesizes import A4
 
 st.set_page_config(page_title="RelatorioCS")
-st.sidebar.header("Insoeção Visual")
+st.sidebar.header("Inspeção Visual")
 
 class pagina():
   def __init__(self):
