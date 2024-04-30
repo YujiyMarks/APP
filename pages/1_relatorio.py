@@ -3,13 +3,11 @@ import streamlit as st
 #from reportlab.pdfgen import canvas
 #from reportlab.lib.pagesizes import A4
 
-st.set_page_config(page_title="Relatório")
-st.sidebar.header("Relatorio")
+st.set_page_config(page_title="RelatorioCS")
+st.sidebar.header("Insoeção Visual")
 
 class pagina():
   def __init__(self):
-    st.sidebar.title("Menu")
-    
     st.title("Relatório de Inspeção Visual CS")
     st.selectbox("UFV:",["Campo Verde I","Samambaia"])
     st.selectbox("Cliente:",["Alsol","Reenergisa"])
