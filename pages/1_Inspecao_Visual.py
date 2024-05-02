@@ -40,9 +40,9 @@ pagina()
 
 st.write("ITENS")
 botao = st.button("Insira um item")
-botao.on_click(mostrar_item)
-#if botao:
-# pagina.mostrar_item()
+#botao.on_click(mostrar_item)
+if botao:
+ pagina.mostrar_item()
 #botao = False
 #inserir_item(self, botao)
 
