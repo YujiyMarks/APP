@@ -1,4 +1,6 @@
 import streamlit as st
+from base64 import b64encode
+from fpdf import FPDF
 #from fpdf import FPDF
 #import reportlab
 
